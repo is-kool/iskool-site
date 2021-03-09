@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profiles {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column !important;
+}
+
+.profile {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.avatar {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.profile .detail-info .name {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.profile .detail-info .post {
+  color: #49b1e6;
+  font-size: 20px;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,28 @@
+.products-container {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.products-container .products-card {
+  max-width: 900px;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.products-container .products-card .product-card {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.products-container .products-card .product-card .product-avatar {
+  width: 400px;
+  height: 300px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.products-container .products-card .product-card .product-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
