@@ -1,4 +1,5 @@
 import React from 'react';
+import Profile from './Profile';
 import './Profiles.css';
 
 const Profiles = ({ data }) => {
@@ -9,16 +10,7 @@ const Profiles = ({ data }) => {
           {
             data.map((user, index) => {
               return (
-                <div className="profile" key={index}>
-                  <div className="avatar">
-                    <img src={user.avatar} alt="avatar" />
-                  </div>
-                  <div class="detail-info">
-                    <p className="name">{user.name}</p>
-                    <p className="post">{user.post}</p>
-                    <p className="detail" dangerouslySetInnerHTML={{ __html: user.detail }}></p>
-                  </div>
-                </div>
+                <Profile key={index} user={user} />
               )
             })
           }

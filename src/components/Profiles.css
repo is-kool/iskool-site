@@ -30,3 +30,17 @@
   font-size: 20px;
   margin-bottom: 12px;
 }
+
+.profile .detail-info .detail.collapsed {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.read-more {
+  display: block;
+  color: #777;
+  margin-top: 20px;
+  cursor: pointer;
+}

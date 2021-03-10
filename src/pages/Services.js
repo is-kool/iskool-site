@@ -9,7 +9,53 @@ const Services = () => {
       title: "Node and Kafka",
       avatar: "/images/kafka.png",
       description: `
-      Then I do something a little more challenging: the Node.JS application consumes messages from an Apache Kafka topic and writes these messages to a MongoDB database collection, to make the results available for many clients to read and query. Finally I will show a little analytical query against the MongoDB collection, to retrieve some information we would not have been able to get from the plain Kafka Topic (although with Kafka Streams it just may be possible as well).`,
+      Then I do something a little more challenging: the Node.JS application consumes messages from an Apache Kafka topic and writes these messages to a MongoDB database collection, to make the results available for many clients to read and query. Finally I will show a little analytical query against the MongoDB collection, to retrieve some information we would not have been able to get from the plain Kafka Topic (although with Kafka Streams it just may be possible as well).
+      Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients. Our Director of Operations, Paven Teja, is enthusiastic in his work for Qualfon because
+        of the person-focused motivation of the company. He values that the company's overall
+        success ripples into the success of our emloyees, their families, and our clients.
+      `,
     },
     {
       title: "Microservices",

@@ -9,6 +9,6 @@ const HeroSection = ({ title, content = null }) => {
       <p>{content}</p>
     </div>
   );
-}
+};
 
 export default HeroSection;

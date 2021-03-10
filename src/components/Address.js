@@ -7,9 +7,9 @@ const Address = ({ data }) => {
       <div className="container">
         <div>
           {
-            data.map(item => {
+            data.map((item, index) => {
               return (
-                <div className="card">
+                <div className="card" key={index}>
                   <p>{item.name}</p>
                   <p>{item.address}</p>
                   <p>{item.phone}</p>

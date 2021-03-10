@@ -26,3 +26,20 @@
   font-size: 30px;
   margin-bottom: 20px;
 }
+
+.products-container
+  .products-card
+  .product-card
+  .product-description.collapsed {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.read-more {
+  display: block;
+  color: #777;
+  margin-top: 20px;
+  cursor: pointer;
+}
