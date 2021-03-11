@@ -7,7 +7,7 @@
 .products-container .products-card {
   max-width: 900px;
   width: 100%;
-  padding: 80px 0;
+  padding: 80px 20px;
 }
 
 .products-container .products-card .product-card {
@@ -42,4 +42,24 @@
   color: #777;
   margin-top: 20px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .products-container .products-card .product-card {
+    flex-direction: column;
+  }
+
+  .products-container .products-card .product-card > div:first-child {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-card .product-avatar {
+    margin-right: 0 !important;
+  }
+
+  .product-title {
+    text-align: center;
+  }
 }

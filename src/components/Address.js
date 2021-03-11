@@ -4,7 +4,7 @@ import './Address.css';
 const Address = ({ data }) => {
   return (
     <>
-      <div className="container">
+      <div className="container addresses">
         <div>
           {
             data.map((item, index) => {

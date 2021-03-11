@@ -13,9 +13,10 @@
 .profile {
   display: flex;
   margin-bottom: 80px;
+  padding: 0 20px;
 }
 
-.avatar {
+.profile .avatar {
   margin-top: 10px;
   margin-right: 20px;
 }
@@ -43,4 +44,21 @@
   color: #777;
   margin-top: 20px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .profiles .profile {
+    flex-direction: column;
+  }
+
+  .profiles .profile .avatar {
+    margin-right: 0 !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .profiles .profile .detail-info .name,
+  .profiles .profile .detail-info .post {
+    text-align: center;
+  }
 }

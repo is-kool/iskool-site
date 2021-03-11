@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
     setClick(false);
   }
 

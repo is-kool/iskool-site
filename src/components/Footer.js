@@ -3,6 +3,11 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+
+  const handleScrollTop = () => {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <div className="footer-container">
       <div className="contact-info">
@@ -17,15 +22,15 @@ const Footer = () => {
           </p>
         </div>
         <div className="links">
-          <Link to="/products">Products</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/contact">Contact</Link>
+          <Link onClick={handleScrollTop} to="/products">Products</Link>
+          <Link onClick={handleScrollTop} to="/services">Services</Link>
+          <Link onClick={handleScrollTop} to="/contact">Contact</Link>
         </div>
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/" className="social-logo">
+            <Link onClick={handleScrollTop} to="/" className="social-logo">
               IsKool
               <i className="fab fa-typo3" />
             </Link>

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   background-color: #FFF;
+  padding: 0 20px;
 }
 
 .form {
@@ -56,4 +57,10 @@
   background: #2B8FF0;
   border: none;
   color: #FFF;
+}
+
+@media(max-width: 768px) {
+  .form {
+    padding: 50px 20px;
+  } 
 }
