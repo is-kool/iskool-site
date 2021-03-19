@@ -6,7 +6,8 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <>
-      <HeroSection title="Our Solution Is Cool" />
+      <HeroSection title="Your Idea, Our Solution"/> 
+  
       <HomeContentSection />
       <Footer />
     </>
