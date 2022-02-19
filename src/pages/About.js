@@ -45,6 +45,10 @@ const About = () => {
 		Pavan Kumar Theja is an Alumni of Amrita Vishwa Vidyapeetham University, India.
           `,
     },
+    {
+      name: "Nikhila K",
+      post: "Software Engineer",
+    },
   ];
   return (
     <>
